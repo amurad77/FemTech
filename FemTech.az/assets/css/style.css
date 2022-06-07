@@ -586,6 +586,15 @@ section.section-page-title-area .page-title-holder .page-title {
     height: 300px;
     width: 100%;
 }
+.map-holder iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 3;
+}
 .map-holder:hover .map-overlay,
 .map-holder:hover .map-address {
     visibility: hidden;
