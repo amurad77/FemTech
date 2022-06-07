@@ -577,6 +577,7 @@ section.section-page-title-area .page-title-holder .page-title {
 .post {
     margin-bottom: 30px;
     width: 100%;
+    min-height: 460px;
 }
 .post.shadow {
     box-shadow: 0px 20px 62px 0 rgb(0 0 0 / 4%);
