@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 html {
     font-size: 10px;
@@ -1465,3 +1466,306 @@ footer .copyright .copyright-content {
     font-size: 1.4rem;
     color: black;
 }
+
+
+/* what we do */
+.advices {
+    padding-top: 60px;
+    padding-bottom:30px ;
+}
+.advices-content {
+    display: flex;
+    justify-content: space-between;
+}
+.advices-content > div {
+    width: 555px;
+    border: 1px solid #dcdcdc;
+    padding: 50px 20px;
+    display: flex;
+    transition:   all 0.3s ease;
+}
+.advices-content > div > img {
+    margin-top: 16px;
+}
+.vision {
+    margin-top: 28px !important;
+}
+.advices-content > div > div {
+    margin-left: 20px;
+    width: 100%;
+}
+.advices-content > div > div h2 {
+    color: #440659;
+    font-family: Dosis, sans-serif;
+    line-height: 30px;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.advices-content > div > div p {
+    font-weight: 300;
+    color: #818080;
+    line-height: 24px;
+    letter-spacing: 1.5px;  
+    font-size: 1.6rem;
+}
+
+.advices-content > div:hover {
+    transform: translateY(-10px);
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.speeches {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.speeches .container >div >h2 {
+    text-align: center;
+    color: #440659;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.speeches .container>div >p {
+    width: 670px;
+    letter-spacing: 1.5px;
+    color: #818080;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+.speeches .container>div {
+    margin-bottom: 30px;    
+}
+.speeches .container ul {
+    list-style-type: none;
+}
+
+.speeches .container ul li {
+    border: 1px solid #dcdcdc;
+    display: flex;
+    margin-top: 30px;
+}
+.speeches .container ul li div {
+    padding: 20px 30px;
+}
+.speeches .container ul li div h3 {
+    color: #440659;
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    line-height: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    font-family: Dosis, sans-serif;
+}
+
+.speeches .container ul li div p {
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5rem;
+    margin-top: 10px;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.speeches .container ul li  span {
+    display: flex;
+    align-items: center;
+}
+.services {
+    background-image: url(../images/services/services-cta-bg.jpg);
+    background-attachment: fixed;
+    margin: 60px 0;
+    height: 370px;
+}
+.services .container .services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;    
+    height: 94px;
+}
+.services .container .services-title h2 {
+    font-family: 'Arvo', serif;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+.services .container .services-title p {
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 1.6rem;
+}
+
+.services .container ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .container ul li:nth-child(1) {
+    background-color: rgba(68, 6, 89, 0.9);
+    transition: background-color 0.4s;
+}
+.services .container ul li:nth-child(2) {
+    background-color: rgba(255, 102, 210, 0.9);
+    transition: background-color 0.4s;
+}
+.services .container ul li:nth-child(3) {
+    background: rgba(74, 74, 74, 0.9);
+    transition: background-color 0.4s;
+}
+.services .container ul li:nth-child(1):hover {
+    background-color: rgba(68, 6, 89, 1);
+
+
+}
+.services .container ul li:nth-child(2):hover {
+    background-color: rgba(255, 102, 210, 1);
+
+
+}
+.services .container ul li:nth-child(3):hover {
+    background: rgba(74, 74, 74, 1);
+
+}
+.services .container ul li {
+    width: 390px;
+    height: 200px;
+    color: #fff;
+    padding: 30px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.services .container ul li p {
+    font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.services .container ul li div {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 240px) {
+    .speeches .container ul li {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .speeches .container ul li span img {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .container {
+        width: 90vw;
+    }
+    .advices-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .advices-content div {
+        margin-top: 30px;
+        width: 70vw;
+    }
+    .breadcrumb {
+        width: 100%;
+    }
+    .speeches .container>div >p  {
+        width: 50vw;
+    }
+    .services .container ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services {
+        height: max-content;
+    }
+    .services .container ul li {
+            width: 90%;
+            margin: 30px 0;
+    }
+    .sdg-9 {
+        font-size: 0.7rem;
+    }
+} 
+@media screen and (min-width: 481px) {
+    .speeches .container ul li {
+        flex-direction: row;
+
+    }
+    .speeches .container ul li span img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 481px) {
+    .advices-content > div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1155px) {
+    
+    .container {
+        width: 1140px;
+    }
+    .advices-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .advices-content div {
+        width: 48%;
+        margin-top: 0;
+
+    }
+    .speeches .container>div >p  {
+        width: 670px;
+
+    }
+
+    .services .container ul {
+        list-style-type: none; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .services .container ul li {
+        width: 390px;
+        height: 200px;
+        color: #fff;
+        padding: 30px 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }   
+    .sdg-9 {
+        font-size: 1rem;
+    }
+} 
+
+
