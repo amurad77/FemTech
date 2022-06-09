@@ -25,79 +25,79 @@ function scrollFunction() {
     function Pagination() {
         const posts = [
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624eb4042a84a484628d663fa9666e09d49790d3eca58_thumb.jpg",
                 name: "Women of Azerbaijan",
                 date: "07-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624eb3975b9dc62a53932798371179d0d53311cc0efc4_thumb.jpg",
                 name: "Startap ekosistemində qadınların rolu",
                 date: "07-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ea47dde111c752b9df3a48e3dc0a14734224efea1c_thumb.jpg",
                 name: "Məktəbli qızların innovasiya və startap ...",
                 date: "07-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ea3d99341d58515182c9d2bd2121b38ad52ed7ed60_thumb.jpg",
                 name: "Qadınların Startapda iştirakı",
                 date: "07-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ea051122397e8349165c17562b0e625db3c5c43684_thumb.jpg",
                 name: "FemTalk with Konul Guliyeva",
                 date: "07-Aprel-202"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ad0bbdd6df3cf22f4ffa9c9d837cb0ba14b6ad9aed_thumb.jpg",
                 name: '"Her Improvement" - 2. mərhələ',
                 date: "04-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ac8f8bec0e33cae253220c0b19dab4f82711bc09f1_thumb.jpg",
                 name: "Bakı Qida Hakatonu",
                 date: "04-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/618d14a6008d191415ecfb5432e726af6ad578f0b2a41_thumb.jpg",
                 name: "FemTalk with Nargiz Askerova",
                 date: "11-Noyabr-2021"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/618d088f7f7186e09d453f00478e3567fa9664b80abbd_thumb.jpg",
                 name: '"Her Improvement" - 1. mərhələ',
                 date: "11-Noyabr-2021"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ea3d99341d58515182c9d2bd2121b38ad52ed7ed60_thumb.jpg",
                 name: "Qadınların Startapda iştirakı",
                 date: "07-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ea051122397e8349165c17562b0e625db3c5c43684_thumb.jpg",
                 name: "FemTalk with Konul Guliyeva",
                 date: "07-Aprel-202"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ad0bbdd6df3cf22f4ffa9c9d837cb0ba14b6ad9aed_thumb.jpg",
                 name: '"Her Improvement" - 2. mərhələ',
                 date: "04-Aprel-2022"
             },
             {
-                link: "#",
+                link: "newsdetail.html",
                 img: "https://femtech.az/uploads/624ac8f8bec0e33cae253220c0b19dab4f82711bc09f1_thumb.jpg",
                 name: "Bakı Qida Hakatonu",
                 date: "04-Aprel-2022"
