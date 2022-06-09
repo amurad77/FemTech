@@ -143,7 +143,6 @@ ul {
     list-style-type: none;
 }
 
-
 .breadcrumb {
     width: 1140px;
     display: box;
@@ -1160,6 +1159,153 @@ section.section-page-title-area .page-title-holder .page-title {
 }
 .opacity {
     opacity: 0.5;
+}
+
+/* CONTACT Page */
+.main-content.contact-section {
+    padding: 0;
+}
+
+.map-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.map-holder iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 3;
+}
+.map-holder:hover .map-overlay,
+.map-holder:hover .map-address {
+    visibility: hidden;
+    opacity: 0;
+}
+.map-holder .map-address {
+    position: relative;
+    font-family: "Arvo", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    color: white;
+    opacity: 1;
+    transition: 0.6s all;
+    text-align: center;
+    z-index: 6;
+}
+.map-holder .map-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 187, 0, 0.7);
+    z-index: 4;
+    opacity: 1;
+    transition: 0.6s all;
+    animation-delay: 2s;
+}
+
+.contact-section .contact-form {
+    padding: 40px 30px;
+    background: #f7f7f7;
+}
+.contact-section .contact-form .contact-form-title {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 28px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: 0px;
+    margin-bottom: 15px;
+}
+.contact-section .contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-section .contact-form .form-control {
+    font-family: "Open Sans", sans-serif;
+    border: 0px;
+    height: 40px;
+
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+.contact-section .contact-form .form-control:focus-visible {
+    outline: 0;
+}
+.contact-section .contact-form textarea.form-control {
+    padding-top: 15px;
+    height: 180px;
+}
+.contact-section .contact-form .btn-with-animation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 135px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: white;
+    background: #ffbb00;
+    border: 0px;
+    z-index: 5;
+    cursor: pointer;
+}
+.contact-section .contact-form .btn-with-animation:before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition: 350ms all;
+    background: #e6a800;
+    z-index: -1;
+}
+.contact-section .contact-form .btn-with-animation:hover:before {
+    width: 100%;
+}
+
+.contact-info .info-box {
+    padding: 35px 0;
+    border: 1px solid #222222;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-info .info-box .box-title {
+    font-family: "Arvo", serif;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #4a4a4a;
+    font-weight: 700;
+}
+.contact-info .info-box .box-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 24px;
+    color: #4a4a4a;
+    margin: 0px;
+    padding: 0px;
+}
+.contact-info .info-box .box-text a {
+    color: #ffbb00;
+    text-decoration: none;
 }
 
 /* Social Media Section */
