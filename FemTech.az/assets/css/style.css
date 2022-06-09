@@ -522,58 +522,6 @@ header.style-1.minimize .call-center-box {
 
 
 /* CONTACT Page */
-section.section-page-title-area {
-    min-height: 450px;
-    background: 0 0 / cover no-repeat linear-gradient(45deg, rgba(68, 6, 89, 0.85) 0%, rgba(99, 7, 153,0.85) 100%), 50% 50% / cover no-repeat url('../images/home1-slider1.jpg');
-}
-section.section-page-title-area .container {
-    position: relative;
-    min-height: 450px;
-    display: box;
-    display: flex;
-    box-align: center;
-    align-items: center;
-    box-pack: center;
-    justify-content: center;
-}
-section.section-page-title-area .page-title-holder {
-    margin-top: 60px;
-}
-section.section-page-title-area .page-title-holder .page-title {
-    font-family: "Arvo", serif;
-    font-size: 3rem;
-    line-height: 40px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-@media (max-width: 1200px) {
-    section.section-page-title-area {
-        min-height: 350px;
-    }
-    section.section-page-title-area .container {
-        min-height: 350px;
-    }
-    section.section-page-title-area .page-title-holder {
-        margin-top: 0;
-    }
-}
-
-.main-content {
-    position: relative;
-    padding: 60px 0;
-}
-.main-content .col-12 > .row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.main-content .row {
-    overflow: auto;
-}
-
 .main-content.contact-section {
     padding: 0;
 }
@@ -626,11 +574,11 @@ section.section-page-title-area .page-title-holder .page-title {
     animation-delay: 2s;
 }
 
-.contact-form {
+.contact-section .contact-form {
     padding: 40px 30px;
     background: #f7f7f7;
 }
-.contact-form .contact-form-title {
+.contact-section .contact-form .contact-form-title {
     font-family: "Arvo", serif;
     font-weight: 400;
     font-size: 1.6rem;
@@ -640,10 +588,10 @@ section.section-page-title-area .page-title-holder .page-title {
     border: 0px;
     margin-bottom: 15px;
 }
-.contact-form .form-group {
+.contact-section .contact-form .form-group {
     margin-bottom: 15px;
 }
-.contact-form .form-control {
+.contact-section .contact-form .form-control {
     font-family: "Open Sans", sans-serif;
     border: 0px;
     height: 40px;
@@ -656,14 +604,14 @@ section.section-page-title-area .page-title-holder .page-title {
     color: #555;
     background-color: #fff;
 }
-.contact-form .form-control:focus-visible {
+.contact-section .contact-form .form-control:focus-visible {
     outline: 0;
 }
-.contact-form textarea.form-control {
+.contact-section .contact-form textarea.form-control {
     padding-top: 15px;
     height: 180px;
 }
-.contact-form .btn-with-animation {
+.contact-section .contact-form .btn-with-animation {
     position: relative;
     display: flex;
     align-items: center;
@@ -679,7 +627,7 @@ section.section-page-title-area .page-title-holder .page-title {
     z-index: 5;
     cursor: pointer;
 }
-.contact-form .btn-with-animation:before {
+.contact-section .contact-form .btn-with-animation:before {
     position: absolute;
     content: '';
     width: 0px;
@@ -690,7 +638,7 @@ section.section-page-title-area .page-title-holder .page-title {
     background: #e6a800;
     z-index: -1;
 }
-.contact-form .btn-with-animation:hover:before {
+.contact-section .contact-form .btn-with-animation:hover:before {
     width: 100%;
 }
 
