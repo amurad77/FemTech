@@ -151,7 +151,6 @@ ul {
     box-align: center;
     align-items: center;
     position: absolute;
-    left: 15px;
     bottom: 0px;
     margin: 0px;
     padding: 8px 15px;
@@ -1688,9 +1687,6 @@ footer .copyright .copyright-content {
         margin-top: 30px;
         width: 70vw;
     }
-    .breadcrumb {
-        width: 100%;
-    }
     .speeches .container>div >p  {
         width: 50vw;
     }
@@ -1769,3 +1765,303 @@ footer .copyright .copyright-content {
 } 
 
 
+
+/* about us */
+.teams {
+    background: #f9fafc;
+    padding-top: 60px;
+}
+
+.teams .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams .container div h2 {
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+
+.teams .container div p {
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    color: #818080;
+    margin-bottom:10px;
+}
+
+.speakers {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.speakers li {
+    width: 33%;
+    height: 380px;
+    padding: 1.5% 2%;
+}
+
+.speaker-img {
+    /* width: 100%; */
+    height: auto;
+    display: inline-block; 
+    overflow: hidden; 
+}
+@keyframes fadeInLeft {
+    0%{
+        transform: translateX(-350px) ;
+        opacity: 0.1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.speaker-img img {
+    width: 100%;
+    z-index: 1;
+    transition: 0.4s all ease;
+}
+.speaker-img a {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: 900;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 24px;
+    top: 40%;
+    z-index: -1;
+}
+.hover-eff {
+    position: relative;
+}
+
+.speaker-info {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: -13px;
+    background: #fff;
+    text-align: center;
+    width: 90%;
+    padding: 20px 0 10px;
+}
+
+.speaker-info h3 {
+    font-size: 24px;
+    line-height: 26.4px;
+    margin-bottom: 5px;
+}
+.speaker-info p {
+    font-size: 1.4rem !important;
+    line-height: 24px;
+    letter-spacing: normal !important;
+}
+
+.alumnis {
+    background: #f9fafc;
+    padding-top:80px;
+}
+.alumnis-info{
+    position: relative;
+}
+
+.alumnis .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alumnis .container div h2 {
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.alumnis  .speaker-info h3 {
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #4a4a4a;
+    width: 200px;
+    line-height: 23px;
+}
+
+.alumnis-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alumnis-list li {
+    width: 24%;
+    height: 380px;
+    padding: 1.5% 2%;
+
+}
+
+.hover-eff{
+    background-color: rgba(99, 7, 153,0.85);
+}
+.hover-eff:hover .speaker-img img {
+    opacity: 0.5;
+}
+.hover-eff:hover .speaker-img  a {
+    z-index: 1000;
+}
+.hover-eff:hover .speaker-info h3 {
+    color: #e75235;
+    
+} 
+.speaker-info:hover  .speaker-img img {
+    transform: scale(1.2);
+
+}
+
+.speaker-img img:hover {
+    transform: scale(1.2);
+
+}
+
+@media screen and (min-width: 240px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1155px) {
+    
+    .container {
+        width: 1140px;
+    }
+   
+} 
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    figure {
+        width: 530px !important;
+        height: 330px !important;
+    }
+}
+
+@media (min-width: 790px) and (max-width: 992px) {
+    figure {
+        width: 570px !important;
+        height: 378px !important;
+    }
+    .bio-main {
+        flex-direction: column;
+    }
+    .bio-text {
+        width: 100%;
+    }
+    .bio-img {
+        width: 100%;
+    }
+
+    .bio-img figure {
+        right: 210px;
+    }
+
+    .bio-bottom {
+        position: absolute;
+        top: 50%;
+        background-color: #440659;
+        color: white;
+        
+    }
+    .bio {
+        position: relative;
+    }
+
+    .bio-text {
+        padding-top: 100px;
+    }
+    .bio-text button {
+        margin-top: -10px;
+    }
+
+}
+
+@media (min-width: 240px) and (max-width: 790px) {
+    figure {
+        width: 100% !important;
+        height: 378px !important;
+    }
+    .bio-main {
+        flex-direction: column;
+    }
+    .bio-text {
+        width: 100%;
+    }
+    .bio-img {
+        width: 100%;
+    }
+    .bio {
+        position: relative;
+    }
+
+    .bio-text {
+        padding-top: 100px;
+    }
+    .bio-text button {
+        margin-top: -10px;
+    }
+    .bio-bottom {
+        position: absolute;
+        top: 40%;
+        background-color: #440659;
+        color: white;
+        
+    }
+    .bio-text p {
+        width: 90%;
+    }
+    .bio-text {
+        height: max-content;
+    }
+
+}
+@media (min-width: 240px) and (max-width: 992px) {
+
+    .speakers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speakers li {
+        height: min-content;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .alumnis-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .alumnis-list li {
+        height: min-content;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
