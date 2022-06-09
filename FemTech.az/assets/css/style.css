@@ -143,8 +143,7 @@ ul {
     list-style-type: none;
 }
 
-<<<<<<< HEAD
-=======
+
 .breadcrumb {
     width: 1140px;
     display: box;
@@ -216,8 +215,6 @@ ul {
     }
 }
 
-
->>>>>>> news
 
 /* Mobile Navbar */
 #mobile-menu-trigger {
@@ -356,11 +353,6 @@ ul {
 }
 
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> news
 /* Header Section */
 header {
     position: fixed;
@@ -527,7 +519,6 @@ header.style-1.minimize .call-center-box {
 }
 
 
-<<<<<<< HEAD
 /* Banner Section */
 section.section-banner {
     height: 780px;
@@ -1005,7 +996,6 @@ section.section-companies img {
     margin: auto;
     width: 90%;
 }
-=======
 
 /* NEWS Page */
 section.section-page-title-area {
@@ -1172,8 +1162,6 @@ section.section-page-title-area .page-title-holder .page-title {
     opacity: 0.5;
 }
 
->>>>>>> news
-
 /* Social Media Section */
 .social-media .social-media-title {
     text-align: center;
@@ -1206,10 +1194,6 @@ section.section-page-title-area .page-title-holder .page-title {
     transition: color 0.4s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> news
 /* Footer Section */
 footer .footer-widgets {
     background: #440659;
@@ -1334,8 +1318,4 @@ footer .copyright .copyright-content {
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.4rem;
     color: black;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> news

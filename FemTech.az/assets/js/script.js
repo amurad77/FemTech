@@ -18,9 +18,6 @@ function scrollFunction() {
     } else {
         document.getElementsByClassName('back-to-top')[0].classList.remove("is-visible");
     }
-<<<<<<< HEAD
-}
-=======
 }
 
 (function () {
@@ -221,4 +218,3 @@ function scrollFunction() {
     let pagination = new Pagination();
     pagination.init();
 })();
->>>>>>> news
