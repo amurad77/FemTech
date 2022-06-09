@@ -143,6 +143,81 @@ ul {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
+=======
+.breadcrumb {
+    width: 1140px;
+    display: box;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 8px 15px;
+    list-style: none;
+    border-radius: 0px;
+    background: #fff3eb;
+    min-height: 50px;
+}
+.breadcrumb li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 24px;
+}
+.breadcrumb > li {
+    display: inline-block;
+}
+.breadcrumb li.active {
+    color: #4a4a4a;
+    line-height: 28px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.breadcrumb li + li:before {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #4a4a4a;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.breadcrumb li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none !important;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+.breadcrumb li a,
+.breadcrumb li a:hover {
+    color: #e75235;
+}
+
+@media (max-width: 1200px) {
+    .breadcrumb {
+        width: 940px;
+    }
+}
+@media (max-width: 992px) {
+    .breadcrumb {
+        width: 720px;
+    }
+}
+@media (max-width: 768px) {
+    .breadcrumb {
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+>>>>>>> news
 
 /* Mobile Navbar */
 #mobile-menu-trigger {
@@ -282,7 +357,10 @@ ul {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> news
 /* Header Section */
 header {
     position: fixed;
@@ -449,6 +527,7 @@ header.style-1.minimize .call-center-box {
 }
 
 
+<<<<<<< HEAD
 /* Banner Section */
 section.section-banner {
     height: 780px;
@@ -926,6 +1005,174 @@ section.section-companies img {
     margin: auto;
     width: 90%;
 }
+=======
+
+/* NEWS Page */
+section.section-page-title-area {
+    min-height: 450px;
+    background: 0 0 / cover no-repeat linear-gradient(45deg, rgba(68, 6, 89, 0.85) 0%, rgba(99, 7, 153,0.85) 100%), 50% 50% / cover no-repeat url('../images/home1-slider1.jpg');
+}
+section.section-page-title-area .container {
+    position: relative;
+    min-height: 450px;
+    display: box;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+}
+section.section-page-title-area .page-title-holder {
+    margin-top: 60px;
+}
+section.section-page-title-area .page-title-holder .page-title {
+    font-family: "Arvo", serif;
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    section.section-page-title-area {
+        min-height: 350px;
+    }
+    section.section-page-title-area .container {
+        min-height: 350px;
+    }
+    section.section-page-title-area .page-title-holder {
+        margin-top: 0;
+    }
+}
+
+.main-content {
+    position: relative;
+    padding: 60px 0;
+}
+.main-content .col-12 > .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content .row {
+    overflow: auto;
+}
+
+.post {
+    margin-bottom: 30px;
+    width: 100%;
+    min-height: 460px;
+}
+.post.shadow {
+    box-shadow: 0px 20px 62px 0 rgb(0 0 0 / 4%);
+}
+.post .post-header {
+    position: relative;
+    z-index: 0;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.post .post-header img {
+    width: 100%;
+    transition: transform 0.85s;
+}
+
+.post .post-footer {
+    position: relative;
+    background: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+.post .post-footer .post-type-icon {
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    background: #ff66d2;
+    color: #ffffff;
+    z-index: 5;
+}
+.post .post-footer .post-type-icon .fa {
+    display: inline-block;
+    font-size: 16px;
+    text-rendering: auto;
+}
+
+.post .post-footer .post-title,
+.post .post-footer .post-title a,
+.post .post-footer .post-title a:hover {
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+    color: #4a4a4a;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.post hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.post .post-footer .post-date {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    color: #bdbdbd;
+}
+
+.customPagination {
+    margin-top: 20px !important;
+    display: inline-block;
+    margin: 0px 0px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.customPagination span,
+.clickPageNumber {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    float: left;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    transition: all .5s ease;
+    padding: 5px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.customPagination span:hover:not(.current):not(.opacity) {
+    color: #000 !important;
+    background-color: #ddd;
+    border-radius: 2px;
+}
+.customPagination span.current {
+    float: left;
+    background-color: #369599;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 12px;
+}
+.opacity {
+    opacity: 0.5;
+}
+
+>>>>>>> news
 
 /* Social Media Section */
 .social-media .social-media-title {
@@ -959,6 +1206,10 @@ section.section-companies img {
     transition: color 0.4s;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> news
 /* Footer Section */
 footer .footer-widgets {
     background: #440659;
@@ -1083,4 +1334,8 @@ footer .copyright .copyright-content {
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.4rem;
     color: black;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> news
