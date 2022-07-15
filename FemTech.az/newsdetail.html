@@ -12,8 +12,12 @@
     <title>Women of Azerbaijan</title>
 </head>
 <body>
+    <a href="profile.html" id="profile-btn"><i class="fa-solid fa-user"></i></a>
+    <a href="#" id="mobile-cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-badge">1</span>
+    </a>
     <a id="mobile-menu-trigger" href="#0">
-        <span class="mobile-menu-text">Menu</span>
         <span class="mobile-menu-icon"></span>
     </a>
     <div class="overlay"></div>
@@ -47,10 +51,33 @@
                             <li><a href="news.html">News</a></li>
                             <li><a href="aboutus.html">About Us</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="profile.html"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="#" id="cart-btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart-badge">1</span>
+                            </a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
+
+            <div class="cart-box">
+                <div class="product-list">
+                    <div class="product-box">
+                        <div class="product-image">
+                            <img src="assets/images/products/book.png" alt="Book">
+                        </div>
+                        <div class="product-description">
+                            <p class="name">Startap Lüğəti</p>
+                            <p class="cost"><span>1</span> x <span class="product-cost">10 AZN</span></p>
+                            <a href="#" class="delete-product"><i class="fa-solid fa-trash-can"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="total-cost">Subtotal: <span id="total-cost">10 AZN</span></p>
+                <a href="cart.html" class="btn-pink-radius">Checkout</a>
+            </div>
+
             <div class="call-center-box">
                 <i class="fa fa-phone"></i>
                     <div class="call-center-text">

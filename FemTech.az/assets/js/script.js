@@ -5,6 +5,16 @@ $(document).ready(function(){
     });
 });
 
+$("#cart-btn").click(function(event){
+    event.preventDefault();
+    $(".cart-box").slideToggle();
+});
+
+$("#mobile-cart-btn").click(function(event){
+    event.preventDefault();
+    $(".cart-box").slideToggle();
+});
+
 window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
     if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
