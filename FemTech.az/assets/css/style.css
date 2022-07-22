@@ -2252,6 +2252,7 @@ footer .copyright .copyright-content {
     }
 }
 
+
 /* Products Page*/
 .single-product {
     min-height: 430px;
@@ -2304,5 +2305,294 @@ footer .copyright .copyright-content {
 @media (max-width: 576px) {
     .products-page .col-3 {
         width: 100% !important;
+    }
+}
+
+
+/* User Profile */
+.profile-section {
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.profile-section img {
+    width: 150px;
+    border: 3px solid #440659;
+    border-radius: 50%;
+}
+.profile-section h2 {
+    font-family: "Arvo", serif;
+    font-size: 26px;
+    color: #440659;
+    margin: 30px 0 10px;
+}
+.profile-section > p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.profile-section .profile-bio {
+    border-top: 1px solid #cfcfcf;
+    padding-top: 20px;
+}
+.profile-section .profile-bio h5 {
+    font-family: "Arvo", serif;
+    font-size: 22px;
+    color: #440659;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.profile-section .profile-bio p {
+    font-size: 18px;
+    text-align: justify;
+}
+.profile-section ~ a {
+    font-family: "Arvo", serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0;
+}
+.btn.edit-profile {
+    background-color: #440659;
+    color: #fff;
+    margin-right: 30px;
+}
+.btn.logout {
+    color: #440659;
+    border: 1px solid #440659;
+}
+
+@media (max-width: 450px) {
+    .btn.edit-profile,
+    .btn.logout {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.tabs {
+    position: relative;
+}
+.tabs > input,
+.tabs > span {
+    position: absolute;
+    top: 0;
+}
+.tabs > input {
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    z-index: 99;
+}
+.tabs > span {
+    font-family: "Arvo", serif;
+    font-size: 20px;
+    color: #4a4a4a;
+    overflow: hidden;
+}
+.tabs > input:checked + span {
+    font-weight: bold;
+    color: #440659;
+}
+.line{
+    background: #440659;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    transition: all .5s;
+}
+#tab-1, #tab-1 + span,
+#tab-1:checked ~ .line {
+    left: 0;
+    width: 135px;
+}
+#tab-2, #tab-2 + span,
+#tab-2:checked ~ .line {
+    left: 150px;
+    width: 200px;
+}
+.tab-content {
+    width: 100%;
+}
+.tab-content section {
+    width: 100%;
+    display: none;
+}
+#tab-1:checked ~ .tab-content #tab-item-1,
+#tab-2:checked ~ .tab-content #tab-item-2 {
+    display: block;
+}
+
+/************** temporary **************/
+.single-event {
+    position: relative;
+    margin-bottom: 30px;
+}
+.single-event .single-event-image {
+    margin-bottom: 10px;
+    position: relative;
+}
+.single-event .single-event-image img {
+    width: 100%;
+}
+.single-event .single-event-image .single-event-date {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 10px 0;
+    background-color: #440659;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    text-align: center;
+}
+.single-event .single-event-image .single-event-date span {
+    display: inline-block;
+    font-family: "Arvo", serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-event .add-to-saved {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.single-event .add-to-saved i {
+    color: #440659;
+    font-size: 24px;
+}
+/************** end of temporary **************/
+
+.tab-content .single-product {
+    margin: 0 0 30px 0;
+}
+
+@media (max-width: 450px) {
+    #tab-2, #tab-2 + span,
+    #tab-2:checked ~ .line {
+        left: 0;
+    }
+    #tab-2, #tab-2 + span {
+        top: 40px;
+    }
+    #tab-2:checked ~ .line {
+        top: 70px;
+    }
+    .tab-content {
+        padding-top: 40px;
+    }
+}
+
+
+/* Edit Profile */
+.edit-profile-section {
+    position: relative;
+}
+.edit-profile-section .col-6,
+.edit-profile-section .col-12 {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.edit-profile-section h2 {
+    font-family: "Arvo", serif;
+    font-size: 22px;
+    color: #440659;
+}
+.edit-profile-section .line {
+    width: 132px;
+    top: 25px;
+}
+.edit-profile-img {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.edit-profile-img img {
+    width: 150px;
+    border: 3px solid #440659;
+    border-radius: 50%;
+}
+.edit-profile-img input {
+    display: none;
+}
+.edit-profile-img .custom-file-upload {
+    display: inline-block;
+    background-color: rgba(68, 6, 89, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    height: 44px;
+    padding: 10px 0;
+    margin-left: 50px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.edit-profile-bio {
+    overflow: auto;
+}
+.edit-profile-bio + hr {
+    background-color: #cfcfcf;
+    height: 1px;
+    width: 90%;
+    margin: 30px 0 50px;
+}
+.edit-profile-bio label,
+.edit-login-info label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.edit-profile-bio input,
+.edit-profile-bio textarea,
+.edit-login-info input {
+    background-color: rgba(68, 6, 89, 0.1);
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.edit-profile-bio textarea {
+    resize: none;
+    width: 90%;
+}
+.edit-profile-bio input:focus,
+.edit-profile-bio textarea:focus,
+.edit-login-info input:focus {
+    outline: 0;
+}
+.edit-profile-section button {
+    font-family: "Arvo", serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: #440659;
+    color: #fff;
+    margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+    .edit-profile-bio + hr {
+        width: 100%;
+    }
+    .edit-profile-bio input,
+    .edit-profile-bio textarea,
+    .edit-login-info input {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .edit-profile-img {
+        flex-direction: column;
+    }
+    .edit-profile-img .custom-file-upload {
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
