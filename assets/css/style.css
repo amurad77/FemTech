@@ -2169,14 +2169,14 @@ footer .copyright .copyright-content {
 	margin-right: 10px;
 	position: absolute;
 	left: 10px;
-	z-index: 1000;
+	z-index: 2;
 	cursor: pointer;
 }
 #plus-item {
 	margin-left: 10px;
 	position: absolute;
 	right: 10px;
-	z-index: 1000;
+	z-index: 2;
 	cursor: pointer;
 }
 
